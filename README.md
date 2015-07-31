@@ -20,8 +20,8 @@ Usage example:
         pgConnect.f( 
             function(userId, callback) { 
                 callback(userId); 
-            } <br>
-        ), <br>
+            } 
+        ), 
         pgConnect.getUserInfoById() 
      ]; 
     
