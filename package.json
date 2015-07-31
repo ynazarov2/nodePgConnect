@@ -1,0 +1,17 @@
+{
+  "name": "node-pg-connect",
+  "version": "1.0.0",
+  "description": "wrapper around pg.connect()",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.0",
+    "conflate": "^1.1.0",
+    "pg": "^4.4.0",
+    "util": "^0.10.3"
+  }
+}
