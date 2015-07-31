@@ -16,7 +16,7 @@ Usage example:
      var pgConnect = new pgConnect('postgres://postgres:password@yourhost:port/postgres', __dirname + '/methods/'); 
     
      var queries = [ 
-     pgConnect.getUserIdByToken('-some-token'),
+        pgConnect.getUserIdByToken('-some-token'),
         pgConnect.f( 
             function(userId, callback) { 
                 callback(userId); 
