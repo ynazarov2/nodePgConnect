@@ -19,7 +19,7 @@ Usage example:
         pgConnect.getUserIdByToken('-some-token'),
         pgConnect.f( 
             function(userId, callback) { 
-                callback(userId); 
+                callback('user_' + userId); 
             } 
         ), 
         pgConnect.getUserInfoById() 
